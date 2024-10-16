@@ -10,8 +10,9 @@ function App() {
     <Nav/>
     <Header/>
     <BookingForm/>
+    {/* for time selection */}
     </>
       );
-}
+};
 
 export default App;

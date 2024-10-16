@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import bannerImg from '../images/restauranfood.jpg'
+import restauranfood from '../images/restauranfood.jpg'
 
 const Header = () => {
   return (
@@ -16,7 +16,7 @@ const Header = () => {
         </div>
         {/* banner image */}
         <div className='banner-img'>
-          <img src={bannerImg} alt=''/>
+          <img src={restauranfood} alt=''/>
         </div>
       </section>
     </header>
