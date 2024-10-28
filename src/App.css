@@ -179,7 +179,7 @@ input, label{
   flex-wrap: wrap;
 }
 .cards{
-  margin-top: 30px;
+  margin-top: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -196,7 +196,7 @@ input, label{
 
 .menu-container img{
   width: 100%;
-  height: 233px;
+  height: 200px;
   border-radius: 8px;
 }
 
@@ -311,3 +311,15 @@ footer ul li{
 .hidden{
   display: none;
 }
+
+.menu-desc{
+  font-size: 20px;
+ }
+
+ .price-desc{
+  font-size: 24px;
+ }
+
+ .footer-desc{
+  font-size: 16px;
+ }
