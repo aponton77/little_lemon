@@ -1,4 +1,5 @@
-import React, { useState } from 'react'
+import React from 'react'
+import { useState } from 'react';
 
 const BookingForm = (props) => {
     const [date, setDate] = useState("");
@@ -8,7 +9,7 @@ const BookingForm = (props) => {
 
     const handleSubmit = (e) =>{
       e.preventDefault();
-      props.SubmitForm(e);  
+      props.submitForm(e);  
     }
 
     const handleChange = (e) =>{
@@ -47,7 +48,7 @@ const BookingForm = (props) => {
                     {/* Occasion field */}
                     <div>
                     <label htmlFor='book-occasion'>Occasion:</label>
-                    <select id='book-ocassion' key={occasion} value={occasion} onChange={(e) => setOccasion(e.target.value)}>
+                    <select id='book-occasion' key={occasion} value={occasion} onChange={e => setOccasion(e.target.value)}>
                         <option>Birthday</option>
                         <option>Anniversary</option>
                     </select>
